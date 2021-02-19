@@ -1,0 +1,29 @@
+{
+    "name": "carpfish/yii2-slimscroll",
+    "description": "Yii2 slimscroll",
+    "keywords": ["yii2", "carpfish", "slimscroll", "yii2 slimscroll"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/carpfish/yii2-slimscroll"
+    },
+    "authors": [
+        {
+            "name": "Carpfish",
+            "email": "carpfish@fishome.org",
+            "homepage": "http://fishome.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bower-asset/slimScroll": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "carpfish\\slimscroll\\": ""
+        }
+    }
+}
